@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "CARDIOLOGY CONSULTATION",
+        "price": "600",
+        "description": "Dr Anamur Rahman provides outpatient consults at Mount Adora Hospital.He will perform a physical examination that may include checking the patient blood pressure, weight, heart, lungs, and blood vessels.",
+        "img": "https://i.ibb.co/jbKY6kw/consultation.png"
+    },
+    {
+        "id": 2,
+        "name": "HEART ATTACKS AND EMERGENCY TREATMEN",
+        "price": "800",
+        "description": "A heart attack can be fatal, but treatment has improved dramatically over the years. It's crucial to call for emergency medical help if you think you might be having a heart attack",
+        "img": "https://i.ibb.co/8NjdDM8/heart-attack.png"
+    },
+    {
+        "id": 3,
+        "name": "ECHO ",
+        "price": "400",
+        "description": "An ECHO uses sound waves (ultrasound) to create a picture of your heart. The recorded waves show the shape, texture and movement of your heart valves, as well as the size of your heart chambers and how well they are working",
+        "img": "https://i.ibb.co/DGqFQgW/echo.png"
+    },
+    {
+        "id": 4,
+        "name": "ECG REPORT CHEACKUP",
+        "price": "350",
+        "description": "Detect heart problems, including a recent or ongoing heart attack, abnormal heart rhythms , coronary artery blockage, areas of damaged heart muscle.",
+        "img": "https://i.ibb.co/bvsDb9y/ecg.png"
+    },
+    {
+        "id": 5,
+        "name": "PRESSURE CHECKUP",
+        "price": "300",
+        "description": "Blood pressure is the force of your blood pushing against the walls of your arteries. Each time your heart beats, it pumps blood into the arteries. Your blood pressure is highest when your heart beats, pumping the blood.",
+        "img": "https://i.ibb.co/HhWqhPL/pressure.png"
+    }
+   
+]
