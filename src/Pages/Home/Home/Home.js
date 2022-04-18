@@ -1,12 +1,14 @@
 import React from 'react';
 import Services from '../Services/Services';
 import Banner from './Banner/Banner';
+import Doctor from './Doctor/Doctor';
 
 const Home = () => {
     return (
-        <div className='m-5'>
+        <div className=''>
             <Banner></Banner>
             <Services></Services>
+            <Doctor></Doctor>
         </div>
     );
 };

@@ -15,7 +15,7 @@ const Banner = () => {
         <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
-            className="  d-block w-100 m-5 "
+            className="  d-block w-100  "
             src={heart}
             alt="First slide"
           />
@@ -26,7 +26,7 @@ const Banner = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="  d-block w-100 m-5 "
+            className="  d-block w-100  "
             src={cardiacarrest}
             alt="First slide"
           />
