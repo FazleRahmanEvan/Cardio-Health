@@ -8,6 +8,7 @@ import './SocialLogin.css'
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     const navigate = useNavigate();
+    
     let errorElement;
     
     if (error) {
@@ -37,7 +38,9 @@ const SocialLogin = () => {
                 onClick={() => signInWithGoogle()}
                 className=' google-button w-50'>
                     <img className='google' src={google} alt="" />
-                   <span className='text-white px-2'> Google Sign In</span></button>
+                   <span className='text-white px-2'>
+                        Google Sign In</span>
+                        </button>
             </div>
         </div>
     );
