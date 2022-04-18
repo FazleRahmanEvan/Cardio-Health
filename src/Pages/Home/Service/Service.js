@@ -1,8 +1,15 @@
+import { Button } from 'bootstrap';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Service.css';
 
 const Service = ({service}) => {
-    const {name, img,description,price} = service;
+    const {id,name, img,description,price} = service;
+    const navigate = useNavigate();
+    const navigateToServiceDetail = id => {
+        navigate(`/service/${id}`)
+    }
+
     return (
         <div class="card col-sm-12" style={{width: "18rem;"}}>
         <img src={img} class="card-img-top" alt="..."/>
@@ -10,8 +17,7 @@ const Service = ({service}) => {
           <h5 class="card-title">{name}</h5>
           <p class="card-text">{description}</p>
           <p class="card-text">Price:{price}</p>
-         <a href="#" class="btn btn-primary">Book Now</a>
-        
+       <button onClick={() =>navigateToServiceDetail(id)} className='btn btn-primary'>Book Now</button>
         </div>
       </div>
     )

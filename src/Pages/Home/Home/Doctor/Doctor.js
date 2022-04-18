@@ -4,11 +4,10 @@ import './Doctor.css';
 
 const Doctor = () => {
     return (
-      <div className="doctor d-flex ">
+      <div id="doctor" className="doctor d-flex ">
           <div>
-            <h1  className='text-primary'>ABOUT 
-                <br />
-                DR MD. ANAMUR RAHMAN </h1>
+            <h1  className='text-primary'> Doctor </h1>
+            <h2>MD.ANAMUR RAHMAN</h2>
             <h3>Cardiologist</h3>
             <p>Assistant Professor, Sylhet MAG Osmani Medical College  Hospital</p>
           
